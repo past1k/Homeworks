@@ -1,27 +1,88 @@
-#first{
+.clear{
+    clear: both;
+}
 
-    background-color: greenyellow;
+#calendar{
     width: 210px;
-    height: 260px;
+    height: 250px;
+    background: silver;
 
-    padding: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.month{
+    height: 40px;
+    background: black;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+
+    
+}
+
+
+.weekdays{
+    background: grey;
+    color: burlywood;
+
+    text-align: center;
 
    
+    
+
+    
+    
 
 }
 
-[data-name="block1"]{
+.weekdays .weekdays{
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    float: left;
+    
+}
 
-    background-color: rgb(255, 0, 255);
 
-    width: 20px;
-    height: 18px;
+.day{
+    color: blue;
+    width: 210px;
+    
+    
+    
 
 }
+
+.day .day{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    float: left;
+    
+}
+
+.weekends{
+    color: crimson;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    float: left;
+}
+
+.Today{
+    background: brown;
+    color: black;
+    width: 30px;
+    
+    text-align: center;
+    float: left;
+}
+
+
+
 
 
    
