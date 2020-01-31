@@ -18,17 +18,16 @@
     background: black;
     color: white;
     font-size: 30px;
-    padding: 10px;
     text-align: center;
 
-    
+    padding: 10px;
+       
 }
 
 
 .weekdays{
     background: grey;
     color: burlywood;
-
     text-align: center;
 }
 
@@ -68,7 +67,6 @@
     background: brown;
     color: black;
     width: 30px;
-    
     text-align: center;
     float: left;
 }
