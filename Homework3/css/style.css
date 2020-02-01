@@ -25,14 +25,16 @@
 }
 
 
-.weekdays{
+.weekdaysbox{
     background: grey;
     color: burlywood;
     text-align: center;
+
+    padding-top: 10px;
 }
 
 
-.weekdays .weekdays{
+.weekdays{
     width: 30px;
     height: 25px;
     text-align: center;
@@ -40,14 +42,16 @@
 }
 
 
-.day{
+.daybox{
     color: blue;
     width: 210px; 
+
+    padding-top: 10px;
 }
 
 
 
-.day .day{
+.day{
     width: 30px;
     height: 30px;
     text-align: center;
