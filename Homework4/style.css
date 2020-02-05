@@ -1,0 +1,184 @@
+body .box{
+    height: 1000;
+    width: 1000;
+}
+
+.dota{
+    background-color: red;
+    width: 300px;
+    text-align: center;
+}
+
+
+.box{
+    background: center center / contain no-repeat black url(dota3.jpg);
+    height: 900px;
+    position: relative;
+    background-attachment: fixed;
+
+    z-index: 10;
+}
+
+.x-box{
+    background: center center / contain no-repeat url(dedmoped.jpg);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 9;
+}
+
+.p-box{
+    background: center center / contain no-repeat url(kunnka1.jpg);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+
+    z-index: 9;
+}
+
+.y-box{
+    background: center center / contain no-repeat url(morphling.jpg);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    left: 0;
+
+    z-index: 9;
+}
+
+.u-box{
+    background: center center / contain no-repeat url(mertviyded.jpg);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    left: 0;
+
+    z-index: 9;
+}
+
+.t-box{
+    background: center center / contain no-repeat url(pudge.jpg);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    left: 0;
+
+    z-index: 9;
+}
+
+.e-box{
+    background: center center / contain no-repeat url(clockwerk.jpg);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    left: 0;
+
+    z-index: 9;
+}
+
+.w-box{
+    background: center center / contain no-repeat url(spectre.png);
+    width: 160px;
+    height: 160px;
+    position: relative;
+    bottom: 750px;
+    left: 1080px;
+
+    z-index: 9;
+}
+
+.q-box{
+    background: center center / contain no-repeat url(lich.png);
+    width: 160px;
+    height: 160px;
+    position: relative;
+    top: 150px;
+    right: 2px;
+
+    z-index: 9;
+}
+
+.r-box{
+    background: center center / contain no-repeat url(Base_kunkka.png);
+    width: 164px;
+    height: 160px;
+    position: relative;
+    top: 150px;
+    right: 2px;
+
+    z-index: 9;
+}
+
+.g-box{
+    background: center center / contain no-repeat url(sheyker.png);
+    width: 160px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    right: 2px;
+
+    z-index: 9;
+}
+
+.n-box{
+    background: center center / contain no-repeat url(a_leshrac.png);
+    width: 160px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    right: 2px;
+
+    z-index: 9;
+}
+
+.m-box{
+    background: center center / contain no-repeat url(kuna.png);
+    width: 160px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    right: 2px;
+
+    z-index: 9;
+}
+
+.dotan{
+    background: center center / contain no-repeat url(dota222.png);
+    width: 160px;
+    height: 150px;
+    position: relative;
+    bottom: 750px;
+    right: 525px;
+    
+    z-index: 9;
+}   
+
+.pos-fixet{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(0, 81, 128);
+    color: rgb(0, 255, 242);
+    font-size: 26px;
+    display: block;
+
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+
+
+
+
