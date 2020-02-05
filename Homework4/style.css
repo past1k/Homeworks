@@ -91,7 +91,7 @@ body .box{
     height: 160px;
     position: relative;
     bottom: 750px;
-    left: 1080px;
+    left: 1300px;
 
     z-index: 9;
 }
@@ -157,7 +157,7 @@ body .box{
     height: 150px;
     position: relative;
     bottom: 750px;
-    right: 525px;
+    right: 625px;
     
     z-index: 9;
 }   
