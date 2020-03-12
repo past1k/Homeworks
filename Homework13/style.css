@@ -94,6 +94,7 @@ body{
 
 .home-slide_item_text_top{
     font-weight: bold;
+    letter-spacing: 3px;
     font-size: 14px;
     color: #ffc7b0;
     text-transform: uppercase;
@@ -149,6 +150,7 @@ body{
 
 .home-articles_item_text_top1{
     font-weight: bold;
+    letter-spacing: 3px;
     font-size: 14px;
     text-transform: uppercase;
     color: #ffc7b0;
@@ -240,6 +242,7 @@ body{
 
 .home-articles_item_text_top2{
     font-size: 14px;
+    letter-spacing: 3px;
     font-weight: bold;
     color: #ffc7b0;
     text-transform: uppercase;
@@ -334,6 +337,7 @@ body{
 
 .home-articles_item_text_top3{
     font-size: 14px;
+    letter-spacing: 3px;
     font-weight: bold;
     color: #ffc7b0;
     text-transform: uppercase;
@@ -386,6 +390,7 @@ body{
 
 .home-articles_item_text_top4{
     font-size: 14px;
+    letter-spacing: 3px;
     font-weight: bold;
     color: #ffc7b0;
     text-transform: uppercase;
