@@ -1,16 +1,9 @@
-@font-face {
-    font-family: 'opensansregular';
-    src: url('./font/opensans-regular-webfont.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-
-    font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic');
 
 *{box-sizing: border-box;}
 
 body{
-    font-family: 'opensansregular';
+    font-family: 'Open Sans', sans-serif;
     
     background-color: #3e3b4a;
 }
@@ -50,6 +43,7 @@ body{
 .header-menu{
     text-decoration: none;
     font-size: 12px;
+    letter-spacing: 3px;
     color: #898691;
     background: url(./img/menu_i.png) no-repeat left top;
     line-height: 19px;
@@ -60,6 +54,7 @@ body{
 
 .header-search_item{
     text-decoration: none;
+    letter-spacing: 3px;
     font-size: 12px;
     color: #898691;
     background: url(./img/search_i.png) no-repeat right top;
@@ -84,7 +79,7 @@ body{
     flex-basis: 100%;
     max-height: 514px;
     background: url(./img/Shape\ 1_i.jpg) no-repeat;
-
+    
     padding: 40px 0 0 42px;
     margin-bottom: 20px;
 
@@ -116,23 +111,20 @@ body{
     color: #ffffff;
 }
 
+
+
 .read-push{
     display: block;
-    font-weight: bold;
-    width: 126px;
-    height: 42px;
     font-size: 20px;
-    
-    line-height: 36px;
-    text-align: center;
-    
+    font-weight: bold;
+    height: 36px;
+    width: 126px;
+    text-align: center; 
+    margin-right: auto;
     margin-top: 70px;
     margin-bottom: 39px;
-
     text-decoration: none;
     color: #ffffff;
-    
-
     border: 3px solid;
     border-color: #ffd307;  
 }
@@ -176,25 +168,19 @@ body{
     padding-bottom: 156px;
 }
 
-.push2{
-    display: block;
-    width: 114px;
-    padding-left: 41px;  
-}
+
 
 .read-push_2{
     display: block;
-    font-weight: bold;
-    width: 126px;
-    height: 42px;
     font-size: 20px;
-
-    line-height: 36px;
-    text-align: center;
-    
+    font-weight: bold;
+    height: 36px;
+    width: 126px;
+    text-align: center; 
+    margin-right: auto;
+    margin-left: 42px;
     text-decoration: none;
     color: #ffffff;
-
     border: 3px solid;
     border-color: #ffd307;
 }
@@ -307,15 +293,14 @@ body{
 .push5{
     display: block;
     width: 93px;
-    padding-left: 84px; 
+    margin: 0 auto; 
 }
 
 
 .read-push_5{
     display: block;
     font-weight: bold;
-    width: 93px;
-    height: 42px;
+    height: 36px;
     font-size: 20px;
     line-height: 36px;
     text-align: center;
@@ -360,14 +345,13 @@ body{
 .push6{
     display: block;
     width: 93px;
-    padding-left: 84px;
+    margin: 0 auto;
 }
 
 .read-push_6{
     display: block;
     font-weight: bold;
-    width: 93px;
-    height: 42px;
+    height: 36px;
     font-size: 20px;
     line-height: 36px;
     text-align: center;
@@ -418,25 +402,17 @@ body{
     padding-bottom: 180px;
 }
 
-.push7{
-    display: block;
-    width: 114px;
-    padding-left: 42px;
-}
-
 .read-push_7{
     display: block;
+    font-size: 20px;
     font-weight: bold;
     width: 126px;
-    height: 42px;
-    font-size: 20px;
-
-    line-height: 36px;
-    text-align: center;
-    
+    height: 36px;
+    text-align: center; 
+    margin-right: auto;
+    margin-left: 42px;
     text-decoration: none;
     color: #ffffff;
-
     border: 3px solid;
     border-color: #ffd307;
 }
