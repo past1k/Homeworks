@@ -1,0 +1,16 @@
+@media screen and (max-width: 1370px){
+    .header-search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 1180px;
+    }
+
+@media screen and (max-width: 768px){
+    .header-search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 651px
+    }
+}
